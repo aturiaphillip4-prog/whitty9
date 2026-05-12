@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+.heading{
+    background-color: rgba(229, 174, 22);
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 20px 100px;
+    align-items: center;
+}
+.navLinks{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+.navLinks li{
+    list-style: none;
+}
+.navLinks li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.879);
+    font-size: 20px;
+}
+.navLinks li a:hover{
+    color: rgba(255, 255, 255, 0.806);
+}
+.intro{
+    text-align: center;
+}
+.intro h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.intro p{
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.body{
+    padding: 20px 100px;
+}
+.first-column{
+    scroll-margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.first-column div{
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.first-column img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px 20px 0 0;
+}
+.first-column h4{
+    font-size: 20px;
+    color: rgba(0, 128, 0, 0.861);
+    margin: 10px 0;
+}
+.first-column p{
+    font-size: 18px;
+    font-style: italic;
+    color: rgba(0, 128, 0, 0.861);;
+}
+.btn{
+    padding: 5px 20px;
+    margin: 10px 0;
+    background-color: orange;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+}
+.second-column{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.second-column img{
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.second-column .about p{
+    font-size: 20px;
+    padding: 5px 0;
+}
+.second-column address{
+    font-size: 15px;
+    margin: 10px 0;
+}
+.footer{
+     background-color: rgba(229, 174, 22);
+     padding: 20px 0;
+     text-align: center;
+}
+.header{
+    border:2px solid rgba(0, 0, 255, 0.968);
+}
+.web-c{
+	animation: fadeInUp 0.5s ease-out forwards;
+}
+@keyframes fadeInUp {
+	from {opacity:1; transform: translateY(15PX);}
+	to {opacity:2; transform: translateY(0);}
+}
+
+

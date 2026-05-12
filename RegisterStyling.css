@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5e3f1;
+}
+
+form{
+    border: solid 2px black;
+    width: 50%;
+    margin: 100px auto;
+    padding: 20px 30px;
+}
+form h2{
+    text-align: center;
+}
+ form p{
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+form legend{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+form fieldset{
+    padding: 20px 30px;
+}
+form input[type='submit']{
+    padding: 5px 20px;
+    background-color: #fe567E;
+    border: none;
+    cursor: pointer;
+}
+.register-c{
+background-color:#DE43E5;
+color:yellow;
+transition:background-color 0.20 ease,transform 0.25 ease-out;		
+}
+.register-c:hover{
+background-color:#E224E4;
+transform:scale(1.1);
+}
